@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>JS/JQ</title>
+    <!-- icon links -->
+
+
+    <!-- plugin links -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.2/themes/base/jquery-ui.css">
+
+
+
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/media.css">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-icons.css">
+
+  </head>
+  <body> 
+      
+<!-- sortable -->
+<ul id="sortable" class="mb-3">
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 1</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 2</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 3</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 4</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 5</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 6</li>
+  <li class="ui-state-default"><span class="ui-icon ui-icon-arrowthick-2-n-s"></span>Item 7</li>
+</ul>
+
+
+<!-- menu -->
+<ul id="menu" class="mb-3">
+  <li class="ui-state-disabled"><div>Toys (n/a)</div></li>
+  <li><div>Books</div></li>
+  <li><div>Clothing</div></li>
+  <li><div>Electronics</div>
+    <ul>
+      <li class="ui-state-disabled"><div>Home Entertainment</div></li>
+      <li><div>Car Hifi</div></li>
+      <li><div>Utilities</div></li>
+    </ul>
+  </li>
+  <li><div>Movies</div></li>
+  <li><div>Music</div>
+    <ul>
+      <li><div>Rock</div>
+        <ul>
+          <li><div>Alternative</div></li>
+          <li><div>Classic</div></li>
+        </ul>
+      </li>
+      <li><div>Jazz</div>
+        <ul>
+          <li><div>Freejazz</div></li>
+          <li><div>Big Band</div></li>
+          <li><div>Modern</div></li>
+        </ul>
+      </li>
+      <li><div>Pop</div></li>
+    </ul>
+  </li>
+  <li class="ui-state-disabled"><div>Specials (n/a)</div></li>
+</ul>
+
+<!-- slider -->
+<div id="slider" class="mb-3"></div>
+
+<!-- tabs -->
+<div id="tabs">
+  <ul>
+    <li><a href="#tabs-1">Nunc tincidunt</a></li>
+    <li><a href="#tabs-2">Proin dolor</a></li>
+    <li><a href="#tabs-3">Aenean lacinia</a></li>
+  </ul>
+  <div id="tabs-1">
+    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. </p>
+  </div>
+  <div id="tabs-2">
+    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. </p>
+  </div>
+  <div id="tabs-3">
+    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. </p>
+    
+  </div>
+</div>
+
+<!-- select menu -->
+<div class="demo">
+ 
+<form action="#">
+ 
+  <fieldset>
+    <label for="speed">Select a speed</label>
+    <select name="speed" id="speed">
+      <option>Slower</option>
+      <option>Slow</option>
+      <option selected="selected">Medium</option>
+      <option>Fast</option>
+      <option>Faster</option>
+    </select>
+ 
+    <label for="files">Select a file</label>
+    <select name="files" id="files">
+      <optgroup label="Scripts">
+        <option value="jquery">jQuery.js</option>
+        <option value="jqueryui">ui.jQuery.js</option>
+      </optgroup>
+      <optgroup label="Other files">
+        <option value="somefile">Some unknown file</option>
+        <option value="someotherfile">Some other file with a very long option text</option>
+      </optgroup>
+    </select>
+ 
+    
+  </fieldset>
+ 
+</form>
+ 
+</div>
+
+<!-- checkbox nested in label -->
+<div class="widget">
+<h2>Checkbox nested in label</h2>
+  <fieldset>
+    <legend class="lab">Bed Type: </legend>
+    <label for="checkbox-nested-1">2 Double
+      <input type="checkbox" name="checkbox-nested-1" id="checkbox-nested-1">
+    </label>
+    <label for="checkbox-nested-2">2 Queen
+      <input type="checkbox" name="checkbox-nested-2" id="checkbox-nested-2">
+    </label>
+    <label for="checkbox-nested-3">1 Queen
+      <input type="checkbox" name="checkbox-nested-3" id="checkbox-nested-3">
+    </label>
+    <label for="checkbox-nested-4">1 King
+      <input type="checkbox" name="checkbox-nested-4" id="checkbox-nested-4">
+    </label>
+  </fieldset>
+  </div>
+
+ 
+ 
+
+  
+      <a href="nextone.html" class="mt-3">Previous Page</a><br>
+      <a href="index.html" class="mt-3">First Page</a>
+      <!-- script links -->
+    <script src="js/jquery.min.js"></script>
+
+    <!-- plugin links -->
+    <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+
+      
+
+
+    
+
+
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>

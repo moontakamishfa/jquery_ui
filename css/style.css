@@ -1,0 +1,39 @@
+#draggable { width: 150px; height: 150px; padding: 0.5em; background-color: lightgray;}
+
+  fieldset div {
+    margin-bottom: 2em;
+  }
+  fieldset .help {
+    display: inline-block;
+  }
+  .ui-tooltip {
+    width: 210px;
+  }
+  .toggler { width: 500px; height: 200px; position: relative; }
+    #t_button,#h_button { padding: .5em 1em; text-decoration: none; }
+    #effect { width: 240px; height: 170px; padding: 0.4em; position: relative; background: #fff; }
+    #effect h3 { margin: 0; padding: 0.4em; text-align: center; }
+
+    #drag { width: 100px; height: 100px; padding: 0.5em; float: left; margin: 10px 10px 10px 0; }
+  #droppable { width: 150px; height: 150px; padding: 0.5em; float: left; margin: 10px; }
+  
+  #resizable { width: 150px; height: 150px; padding: 0.5em; }
+  #resizable h3 { text-align: center; margin: 0; }
+
+  #sortable { list-style-type: none; margin: 0; padding: 0; width: 60%; }
+  #sortable li { margin: 0 3px 3px 3px; padding: 0.4em; padding-left: 1.5em; font-size: 1.4em; height: 40px; }
+  #sortable li span { position: absolute; margin-left: -1.3em; }
+
+  .ui-menu { width: 150px; }
+
+    label {
+      display: block;
+      margin: 30px 0 0 0;
+    }
+    .overflow {
+      height: 200px;
+    }
+
+    .lab{
+        background-color: lightcyan;
+    }
